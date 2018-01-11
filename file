@@ -1,0 +1,69 @@
+//compile $gcc hellotime.c -o hellotime.o
+//to run ./hellotime.o#include
+
+int main(){
+        time t t = time(NULL):
+        struct tm tm = *localtime(&t);
+
+        printf("now: %d-%d-%d %d:%d:%d\n",
+        tm.tm year + 1900, tm.tm mon + 1
+        tm.tm mday, tm.tm hour, tm.tm min, tm.tm sec);
+}
+
+
+//save this file as helloworld.c
+// compile $gcc hello.c -o hello.o
+// to run $./hello.o
+
+#include <studio.h>
+
+int main(){
+printf ("hello world \n\n");
+}
+
+#include <studio.h>
+
+        int main()
+         {
+                int number,x,y);
+                scanf("%d". &number);
+                printf("the number you typed was %d\n, number):
+                x = number * number.
+                printf("niber * number os &d\n",
+                return o:
+}
+
+#include <stdio.h>
+int main( ) {
+        char str[100];
+
+        printf( "Enter a value :");
+        gets( str );
+
+        printf( "\nYou entered: ");
+        puts( str );
+
+        return 0;
+}
+
+
+#include<studio.h>
+int square ( int v );
+
+int main( )
+{
+        int x, n :
+        printf ( "\nEnter some number for finding square \n");
+        scanf ( "%d", &n) ;
+        x = square ( n ) ;
+        printf ( "\nSquare of the given number %d is %d" ,n,x );
+        printf("\n\n");
+        return 0:
+}
+int square ( int v )
+{
+        int p ;
+        p = v * v ;
+        return ( p ) ;
+}
+   
